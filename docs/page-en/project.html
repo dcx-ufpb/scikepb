@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>SCIKE PB</title>
+    <!-- Configu lang -->
+    <meta charset="UTF-8">
+    <!-- CSS PAGE -->
+    <link rel="stylesheet" type="text/css" href="../css/project.css">
+    <!-- SCRIPT JS -->
+    <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <!-- RESPONSIV -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- LOGO -->
+    <link rel="shortcut icon" href="http://software-cluster.com/wp-content/uploads/2017/02/cropped-SWC-Logo.png" />
+    <link rel="icon" href="http://software-cluster.org/wp-content/uploads/2017/02/cropped-SWC-Logo-32x32.png" sizes="32x32" />
+    <link rel="icon" href="http://software-cluster.org/wp-content/uploads/2017/02/cropped-SWC-Logo-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="http://software-cluster.org/wp-content/uploads/2017/02/cropped-SWC-Logo-180x180.png" />
+    <meta name="msapplication-TileImage" content="http://software-cluster.org/wp-content/uploads/2017/02/cropped-SWC-Logo-270x270.png" />
+</head>
+
+<body>
+    <!-- Hader -->
+    <header>
+        <div class="logo"></div>
+    </header>
+    <!-- Nav -->
+    <nav>
+        <div class="menu-icon">
+            <i><img src="../img/iconic/menu-2x.png"></i>
+        </div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="energy.html">Energy</a></li>
+            <li><a href="university.html">University</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../page-ge/project.html"><img src="../img/iconic/flag-a.png"></a></li>
+        </ul>
+    </nav>
+    <!-- Part-01 -->
+    <div class="part-01">
+        <p style="text-align: center">João Pessoa</p>
+    </div>
+    <!-- Part-02 -->
+    <div class="part-02">
+        <div class="project ">
+            <h1>Pinpointing the Problem</h1>
+            <p>UFPB is a public university with an annually fixed budget to all its expenses; hence, efficiency in resource utilization represents a constant endeavour. In the case of energy utilization, considering the actual scenario, this task is even harder, since there is no information whatsoever about the behavior of the energy consumption inside each campus. The lack of information turns it difficult to make actions in order to optimally manage this expensive resource, like defining rational use procedures, adopting sidequick sources of energy, that could be self-generated (solar energy very abundant in our Brazil Northeast), etc. </p>
+            <p>Detection of anomalous consumption only occurs when a problem occurs. Various building in it´s Campi are research laboratories, that sometimes receive new equipment, and when users do not correctly observe specifications and wrongly connect these equipment to the energy network, several problems arise, like overconsumption or harmonics, only detect when the protection system actuate, switching off the power system.</p>
+            <p>As the demand is previously contracted, and there exists increase in prices when the consumption passes the accorded values, it is important to know, on a daily basis, the total power consumption, so that actions can be made when it is near the maximum values.</p>
+            <p>Improving the energy usage is not a matter of to reduce the energy bill, but it implies in to be recognized by the Environmental Ministry as a institution to receive stamps green, silver or orange depending of how many successful action are performed to improve the resources utilization. Depending on the stamp, the institution receives incentives from the Environmental Ministry.</p>
+        </div>
+    </div>
+    <!-- Part-03 -->
+    <div class="part-03">
+        <div class="proposed">
+            <h1>The Proposed System</h1>
+            <p>This project proposes a system to manage the energy utilization in all campus of the UFPB, by collection information of the energy consumption in each building, through sensors which measures all relevant electric parameters and transmit this data wireless to a concentrator, which in his turn, group and transmit them to a central station, where data is analysed. The energy analyzers can be viewed as the sensors in BR side of the Energy Data Platform, bottom of Figure 3, the UFPB necessity of energy management as the USE CASE, and the fact of to be a public university the BUSINESS MODEL, right side of Figure 3.</p>
+        </div>
+        <div class="proposed-row">
+            <div class="row">
+                <div class="col s6" id="row-img">
+                    <img src="../img/graphic/graphic-energy-data-plataforma.png" width="400" height="300">
+                </div>
+                <div class="col s6" id="row-text">
+                    <p>The main system receives the collected data and visually present them through the USER INTERFACE LAYER, and then record these data in order to later obtain the profile of the energy utilization and them analyze it, using the INGESTION, DATA MANAGEMENT and ANALYTICS layers. ENERGY OPERATIONS in the Data Platform allows switching the external power source to a local power source in a specific building, whenever it is feasible.</p>
+                    <p>The architecture of the system can be divided in software and hardware parts. The software part consists in the central management system, and the hardware part is composed from energy measurement equipment, data collection and transmission.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Part-04 -->
+    <div class="part-04">
+        <div class="phases">
+            <h1>Project Phases</h1>
+            <p>It is proposed to start with a pilot of the system, by choosing buildings in some campus, implementing the data collection on them, the data transmission and data visualization as the first mark. This pilot will permit the detection of possible infrastructure problems that affect the implementation of the system.</p>
+            <p>The second step will improve functionalities of the system, by implementing data analysis, to provide informations like average and peak energy consumption, anomalous utilization, etc.</p>
+            <p>The Energy Operation of the system will be the next step. In this phase, the system will present in what periods of the day it is possible to switch the power from external source to the local generated source. At this point, some buildings will have solar panels and batteries, and the power connection will can be remotely changed.</p>
+            <p>Finally, with the obtained results, the utilization of the system in all UFPB buildings wil be proposed to the central administration.</p>
+        </div>
+    </div>
+    <!-- Part-05 -->
+    <div class="part-05">
+        <div class="benefits">
+            <h1>Benefits for UFPB</h1>
+            <p>As previously presented, the detailed energy consumption in each building will be a mark to the public sector in Brazil, since it will be possible to plan expansions with more real data, and to control the energy consumption in the peak hours, that are more expensive, and to control the out of demand consumption. Another important point to consider is the possibility to detect anomalous consumption, this will improve the quality of the Maintenance Department tasks. Also, with possibility of to change the power feeding to a local generator, certainly will reduce to energy bill, actually on the main expenses of UFPB.</p>
+        </div>
+    </div>
+    <!-- Part-06 -->
+    <div class="part-06">
+        <div class="market">
+            <h1>Market Perspective</h1>
+            <p>Public institution in Brazil annually receives a budget to their maintenance. Improving energy consumption may reduce the energy bill.</p>
+            <p>The proposed system will be pionner in the energy managment, and certainly desired by other public insituitions, like more than 60 Federal Universities in the country. Also, there are other non federal public instiutions who can be interested in the system, since they are affected by the same problem.</p>
+        </div>
+    </div>
+    <!-- Part-07 -->
+    <div class="part-07">
+        <div class="risks">
+            <h1>Risks</h1>
+            <p>Energy management projects, as weel as many other types of projects, carries some risks. Although this project may deliver a good result from an energy efficiency perspective , there may emerge some external factor that influenciates its execution. In this project, the main risks are related to its last phases, when it is to be implanted all over UFPB, due to the large geographical areas to be covered and connected, cultural changes and installation costs. It is expected that this can be minimized by the installation strategy adopted - one single block after another till all of each campus is reached, and then moving to a general unified control center. It is our expectation that as the sensors are installed and information is gathered and processed, it will become clear that the payback obtained justifies the project. </p>
+        </div>
+    </div>
+    <!-- Part-08 -->
+    <div class="part-08">
+        <p style="text-align: center">Joao Pessoa</p>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col s6">
+                <h1>UFPB</h1>
+                <p>Joelson Nogueira de Carvalho<br> joelson@dcx.ufpb.br
+                    <br> Skype: joelson.n.carvalho<br> +55 83 2101 1135<br> Department of Exacts Sciences<br> DCX - CCAE<br> Federal University of Paraiba<br> Rio Tinto - PB, Brazil
+                </p>
+            </div>
+            <div class="col s6">
+                <h1>UFCG</h1>
+                <p>Edmar Candeia Gurjão<br> ecandeia@dee.ufcg.edu.br
+                    <br> ecg@dee.ufcg.edu.br
+                    <br> +55 83 2101 1403<br> Electrical Engineering Dept.<br> Federal University of Campina Grande<br> Campina Grande - PB, Brazil
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

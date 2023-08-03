@@ -1,0 +1,220 @@
+/* Body */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+header {
+    text-decoration: none;
+    background: #fff;
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+
+/* Logo */
+
+.logo {
+    background-image: url(../img/logo/software-cluster/SWC-Logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    background-color: white;
+}
+
+/* Nav */
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+
+    background-color: white;
+    overflow: hidden;
+    color: black;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: max-height 0.5s;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li:hover {
+    background-color: #eee;
+}
+
+.menu-icon {
+    width: 100%;
+    background-color: #eee;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    cursor: pointer;
+    color: black;
+    display: none;
+    text-align: right;
+}
+
+#flag {
+	text-align: center;
+    margin-right: 50%;
+}
+
+/* Nav function redimencinamento */
+
+@media (max-width: 800px) {
+    nav ul {
+        max-height: 0px;
+    }
+
+    .showing {
+        max-height: 20em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+/* Part-01 */
+
+.part-01 {
+    width: 100%;
+}
+
+.news {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.news h1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.news p {
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 30px;
+    font-size: 14px;
+}
+
+.news img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+/* Part-02 */
+
+.part-02 {
+    width: 100%;
+}
+
+.installation {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.installation h1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.installation p {
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 30px;
+    font-size: 14px;
+}
+
+.installation img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+/* Part-03 */
+
+.part-03 {
+    width: 100%;
+}
+
+.organizador {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    padding: 30px;
+}
+
+.organizador h1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.organizador img {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Footer */
+
+footer {
+    background-color: MidnightBlue;
+    color: white;
+}
+
+footer .row {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+footer h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+}
